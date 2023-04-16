@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import Button from "@/components/Button";
 // import Popup from 'reactjs-popup'
-import Camera from '@/components/Camera'
+// import Camera from '@/components/Camera'
 // const Camera = require('@/components/Camera');
 
 
