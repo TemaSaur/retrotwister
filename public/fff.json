@@ -1,0 +1,66 @@
+"questions": [
+        {
+            "id": 2,
+            "question": "Представьте, что вы — супергерой! В чём ваша суперсила?",
+            "answer1": null,
+            "answer2": null,
+            "answer3": null,
+            "answer4": null
+        },
+        {
+            "id": 6,
+            "question": "Что бы вы предпочли: хобот, как у слона, или шею, как у жирафа?",
+            "answer1": null,
+            "answer2": null,
+            "answer3": null,
+            "answer4": null
+        },
+        {
+            "id": 1,
+            "question": "В каком эмоциональном состояние вы сейчас находитесь? Поясните свой ответ",
+            "answer1": "/media/photos/1.jpg",
+            "answer2": "/media/photos/2.jpg",
+            "answer3": "/media/photos/3.jpg",
+            "answer4": "/media/photos/4.jpg"
+        },
+        {
+            "id": 4,
+            "question": "Если бы ваша жизнь была фильмом, как бы он назывался?",
+            "answer1": null,
+            "answer2": null,
+            "answer3": null,
+            "answer4": null
+        },
+        {
+            "id": 7,
+            "question": "Что делает тебя по-настоящему счастливым(-ой)?",
+            "answer1": null,
+            "answer2": null,
+            "answer3": null,
+            "answer4": null
+        },
+        {
+            "id": 8,
+            "question": "Что тебя больше всего порадовало вчера?",
+            "answer1": null,
+            "answer2": null,
+            "answer3": null,
+            "answer4": null
+        },
+        {
+            "id": 3,
+            "question": "Если бы вы были автомобилем, какой бы это был автомобиль?",
+            "answer1": null,
+            "answer2": null,
+            "answer3": null,
+            "answer4": null
+        },
+        {
+            "id": 5,
+            "question": "Что бы вы предпочли: иметь 3 ноги или 3 руки?",
+            "answer1": null,
+            "answer2": null,
+            "answer3": null,
+            "answer4": null
+        }
+]

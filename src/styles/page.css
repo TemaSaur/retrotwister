@@ -19,4 +19,32 @@
   background: #fff;
   width: 300px;
   height: 200px;
+}
+
+.answer {
+  opacity: 0;
+}
+
+.answer.hidden {
+  opacity: 0;
+}
+
+.answer.show {
+  opacity: 1;
+}
+
+.s-text {
+  width: 480px;
+}
+
+.s-text:has(.mood) {
+  transform: translate(-50%, -60px);
+}
+
+.s-text:has(.mood) p {
+  margin-bottom: 20px;
+}
+
+.mood:has(+ .mood) {
+  margin-right: 20px;
 }/*# sourceMappingURL=page.css.map */

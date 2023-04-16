@@ -6,7 +6,10 @@ import Button from '@/components/Button'
 export default function Home() {
 	return (
 		<main className="Home">
-			<div className="mandarin-image"></div>
+			<div className="mandarin-image">
+				<div className="dot1"></div>
+				<div className="dot2"></div>
+			</div>
 			{/* <h1 className="Title">RetroTwister</h1> */}
 			{/* {typeof window === 'undefined' ? 'RetroTwister' : <Link href='/'> */}
 				<Image className="RetroTwister" src="RetroTwister.svg" width={239} height={77} alt="RetroTwister"></Image>

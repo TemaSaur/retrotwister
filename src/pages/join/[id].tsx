@@ -23,11 +23,12 @@ const Join = (props: {preRoomId: ''}) => {
 			</div>
 			<div className="haha">
 				<p>Вставьте ссылку на разминку:</p>
-				<input className='hahahahaha' type="text" onChange={(e) => setRoomId(e.target.value)}/>
+				<input className='hahahahaha' type="text" onChange={(e) => setRoomId(e.target.value)} value='https://scrumtwister.netlify.app/join/7fieR3D5ug' />
+				<button>Копировать!</button>
 			</div>
 		</div>
 		<div className="go" style={{marginTop:60}}>
-			<Link href="">
+			<Link href="/run">
 				<Button colored>Сделать фото</Button>
 				<Button>Продолжить без фото</Button>
 			</Link>

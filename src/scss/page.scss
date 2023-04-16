@@ -20,3 +20,37 @@
 	width: 300px;
 	height: 200px;
 }
+.answer {
+	opacity: 0;
+}
+
+.answer.hidden {
+	opacity: 0;
+}
+.answer.show {
+	opacity: 1;
+}
+
+.s-text {
+	width: 480px;
+}
+
+// .s {
+// 	position: relative;
+// }
+
+.s-text:has(.mood) {
+	// position: relative;
+	// bottom: 80px;
+	transform: translate(-50%, -60px);
+	
+}
+
+.s-text:has(.mood) p {
+
+	margin-bottom: 20px;
+}
+
+.mood:has( + .mood) {
+	margin-right: 20px;
+}
