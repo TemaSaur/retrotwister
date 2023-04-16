@@ -11,7 +11,7 @@ const Create = () =>{
 	const [categories, setCategories] = useState([]);
 	const [ttypes, setTtypes] = useState([]);
 
-	axios.get('http://ezasy.pythonanywhere.com/all-cat?format=json')
+	axios.get('//ezasy.pythonanywhere.com/all-cat?format=json')
 		.then(res => setCategories(res.data))
 		.catch(r => console.log(r));
 	
@@ -24,7 +24,7 @@ const Create = () =>{
 	}
 
 	const getTypes = (e: any) => {
-		axios.get('https://ezasy.pythonanywhere.com/get-topic-by-cat/' + e.target.value.toString())
+		axios.get('//ezasy.pythonanywhere.com/get-topic-by-cat/' + e.target.value.toString())
 			.then(res => setTtypes(res.data))
 	}
 
