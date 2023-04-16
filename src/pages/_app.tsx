@@ -9,7 +9,7 @@ import 'reactjs-popup/dist/index.css'
 import type { AppProps } from 'next/app'
 import localFont from 'next/font/local'
 
-const engineFont = localFont({src: '../../public/Engine.ttf'})
+// const engineFont = localFont({src: '../../public/Engine.ttf'})
 
 export default function App({ Component, pageProps }: AppProps) {
 	return <Component {...pageProps} />
