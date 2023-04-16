@@ -35,11 +35,11 @@ const Join = (props: {preRoomId: ''}) => {
 			</div>
 		</div>
 		<div className="go" style={{marginTop:60}}>
-			<Button colored onClick={() => setDisplay('block')}>Сделать фото</Button>
+			{/* <Button colored onClick={() => setDisplay('block')}>Сделать фото</Button>
 			<div className="poPuP" style={{display: display}}>
 				<Camera setMyOwnImgFileHaha={setPhoto}/>
 				<Button colored>Ok</Button>
-			</div>
+			</div> */}
 
 			<Button>Продолжить без фото</Button>
 		</div>
