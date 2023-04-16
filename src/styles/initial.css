@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f3f3f3 !important;
+  font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+main {
+  width: calc(100% - 50px);
+  max-width: 1200px;
+  min-height: calc(100vh - 60px);
+  margin: 60px auto 0;
+  position: relative;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 2rem 0;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1882352941);
+}
+@media screen and (min-width: 960px) {
+  main {
+    width: 100%;
+    max-width: unset;
+  }
+}
+
+main:has(> .Twister) {
+  padding: 0;
+}
+
+.sky {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -60px;
+}
+
+h1, h2, h3 {
+  font-family: "Engine";
+}
+
+select, .hahahahaha {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #F3F3F3;
+  border: none;
+  border-radius: 8px;
+}/*# sourceMappingURL=initial.css.map */

@@ -1,0 +1,31 @@
+.Twister {
+	position: relative;
+	// padding: 60px 2rem 0;
+	display: flex;
+
+	width: 100%;
+	height: calc(100vh - 60px);
+
+	.part {
+		height: 100%;
+		width: 50%;
+		padding: 60px 7rem 0;
+		position: relative;
+		background: #CFDFDE;
+	}
+
+	// button {
+	// 	background: hotpink;
+	// 	padding: 1em 3em;
+	// 	border-radius: .8em;
+	// 	text-shadow: 1px 1px 5px #00000050;
+
+	// 	&:hover {
+	// 		background: #e3589d;
+	// 	}
+
+	// 	&:active {
+	// 		background: #be4782;
+	// 	}
+	// }
+}

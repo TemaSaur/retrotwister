@@ -1,0 +1,27 @@
+.Dude {
+  position: absolute;
+  z-index: 999;
+  left: calc(252.5px + 5rem);
+  top: 282.5px;
+  transform: translate(-50%, -50%) scale(0);
+  transform-origin: 50% 50%;
+  transition: 0.5s all;
+}
+.Dude.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+.Dude .active-name {
+  font-size: 2rem;
+  margin: 1.5rem 2rem;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+.Dude .active-image {
+  width: 450px;
+  height: 450px;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 9999999px;
+}/*# sourceMappingURL=dude.css.map */

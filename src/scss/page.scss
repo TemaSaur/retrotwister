@@ -1,0 +1,22 @@
+.pageTitle {
+	margin-bottom: 43px;
+
+	@media screen and (min-width: 960px) {
+		width:591px;
+	}
+}
+
+.haha > * {
+	margin-bottom: 15px;
+}
+
+
+.poPuP {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	width: 300px;
+	height: 200px;
+}
