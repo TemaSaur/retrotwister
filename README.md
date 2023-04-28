@@ -20,5 +20,5 @@ For frontend and Python Django for backend
 
 For a local server run
 
-  npm run dev
+    npm run dev
 
