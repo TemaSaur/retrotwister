@@ -5,7 +5,7 @@
 
 A tool for scrum masters for breaking ice during retrospectives.
 
-Connect with your team and (without signing in) 
+Connect with your team and (without signing in) get random lighthearted and fun questions for opening up and talking.
 
 ## Tech stack
 
