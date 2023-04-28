@@ -1,8 +1,7 @@
 # RetroTwister
+### Created during SkyHack Hackathon
 
 [Try it out](https://retrotwister.netlify.app)
-
-## Created during SkyHack Hackathon
 
 A tool for scrum masters for breaking ice during retrospectives.
 
