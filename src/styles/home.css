@@ -41,8 +41,7 @@ main.Home p {
 }
 
 .pussycat, .sup {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   width: 100%;
   max-height: 20vh;
 }
@@ -55,5 +54,7 @@ main.Home p {
 .pussycat-contain, .sup-contain {
   display: flex;
   flex-direction: column;
-  justify-content: end;
-}/*# sourceMappingURL=home.css.map */
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=home.css.map */
